@@ -1788,6 +1788,15 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Bank/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Bank.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bank.dll": {}
+        }
       }
     }
   },
@@ -6325,10 +6334,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Bank/1.0.0": {
+      "type": "project",
+      "path": "../Bank/Bank.csproj",
+      "msbuildProject": "../Bank/Bank.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Bank >= 1.0.0",
       "MSTest.TestAdapter >= 2.2.8",
       "MSTest.TestFramework >= 2.2.8",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
@@ -6341,11 +6356,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetcs\\UnitTest\\TestProject1\\TestProject1\\TestProject1.csproj",
-      "projectName": "TestProject1",
-      "projectPath": "C:\\Projetcs\\UnitTest\\TestProject1\\TestProject1\\TestProject1.csproj",
+      "projectUniqueName": "C:\\Projetcs\\UnitTest\\Bank\\BankTests\\BankTests.csproj",
+      "projectName": "BankTests",
+      "projectPath": "C:\\Projetcs\\UnitTest\\Bank\\BankTests\\BankTests.csproj",
       "packagesPath": "C:\\Users\\JBU\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetcs\\UnitTest\\TestProject1\\TestProject1\\obj\\",
+      "outputPath": "C:\\Projetcs\\UnitTest\\Bank\\BankTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\JBU\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6361,7 +6376,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projetcs\\UnitTest\\Bank\\Bank\\Bank.csproj": {
+              "projectPath": "C:\\Projetcs\\UnitTest\\Bank\\Bank\\Bank.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

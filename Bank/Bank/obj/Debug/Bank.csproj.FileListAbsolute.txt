@@ -1,0 +1,8 @@
+C:\Projetcs\UnitTest\Bank\Bank\bin\Debug\Bank.exe.config
+C:\Projetcs\UnitTest\Bank\Bank\bin\Debug\Bank.exe
+C:\Projetcs\UnitTest\Bank\Bank\bin\Debug\Bank.pdb
+C:\Projetcs\UnitTest\Bank\Bank\obj\Debug\Bank.csproj.AssemblyReference.cache
+C:\Projetcs\UnitTest\Bank\Bank\obj\Debug\Bank.csproj.SuggestedBindingRedirects.cache
+C:\Projetcs\UnitTest\Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+C:\Projetcs\UnitTest\Bank\Bank\obj\Debug\Bank.exe
+C:\Projetcs\UnitTest\Bank\Bank\obj\Debug\Bank.pdb

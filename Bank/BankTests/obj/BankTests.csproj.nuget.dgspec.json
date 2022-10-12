@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetcs\\UnitTest\\TestProject1\\TestProject1\\TestProject1.csproj": {}
+    "C:\\Projetcs\\UnitTest\\Bank\\BankTests\\BankTests.csproj": {}
   },
   "projects": {
-    "C:\\Projetcs\\UnitTest\\TestProject1\\TestProject1\\TestProject1.csproj": {
+    "C:\\Projetcs\\UnitTest\\Bank\\BankTests\\BankTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetcs\\UnitTest\\TestProject1\\TestProject1\\TestProject1.csproj",
-        "projectName": "TestProject1",
-        "projectPath": "C:\\Projetcs\\UnitTest\\TestProject1\\TestProject1\\TestProject1.csproj",
+        "projectUniqueName": "C:\\Projetcs\\UnitTest\\Bank\\BankTests\\BankTests.csproj",
+        "projectName": "BankTests",
+        "projectPath": "C:\\Projetcs\\UnitTest\\Bank\\BankTests\\BankTests.csproj",
         "packagesPath": "C:\\Users\\JBU\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetcs\\UnitTest\\TestProject1\\TestProject1\\obj\\",
+        "outputPath": "C:\\Projetcs\\UnitTest\\Bank\\BankTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JBU\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,7 +27,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Projetcs\\UnitTest\\Bank\\Bank\\Bank.csproj": {
+                "projectPath": "C:\\Projetcs\\UnitTest\\Bank\\Bank\\Bank.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -75,6 +79,21 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Projetcs\\UnitTest\\Bank\\Bank\\Bank.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Projetcs\\UnitTest\\Bank\\Bank\\Bank.csproj",
+        "projectName": "Bank",
+        "projectPath": "C:\\Projetcs\\UnitTest\\Bank\\Bank\\Bank.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }
